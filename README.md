@@ -12,7 +12,7 @@
 5. Clone o repositório para sua máquina (seu fork)
 6. Instale as dependências
    ```shell
-   cd pgats-ci-projeto-base
+   cd pgats-ci-lab
    yarn
    ```
 7. Execute os testes de unidade - isso vai gerar um relatório
@@ -35,6 +35,10 @@
     ```
 13. Execute a aplicação com `yarn start`
 14. Acesse a aplicação publicada [neste link](https://pgats-ci-example.netlify.app)
+15. Para ver os testes e2e:
+   ```shell
+   yarn playwright show-report
+   ```
 
 ---
 
