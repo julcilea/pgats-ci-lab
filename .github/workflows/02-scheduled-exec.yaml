@@ -7,7 +7,7 @@ name: 'Execução Scheculed'
 # gatilho para execução manual = workflow_dispatch
 on:
   schedule:
-    - cron: '0 18 24 * *'
+    - cron: '0 6 * * 1'
 # a - minuto
 # b - hora
 # c - dia do mês
