@@ -40,14 +40,12 @@ jobs:
       - name: Executando testes E2E
         run: yarn run e2e
         
-      # gerando relatório Allure
-      - name: Gerando relatório Allure com caminho por data e commit
+      - name: Gerando relatório Allure
         run: yarn run report:generate
         env:
           GITHUB_SHA: ${{ github.sha }}
 
       - name: Publicando relatório no GitHub Pages
-        if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
