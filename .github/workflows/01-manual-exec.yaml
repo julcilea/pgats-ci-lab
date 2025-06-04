@@ -41,14 +41,15 @@ jobs:
         run: yarn run e2e
         
       # gerando relatório Allure
-      - name: Gerando relatório Allure
+      - name: Gerando relatório Allure com caminho por data e commit
         run: yarn run report:generate
+        env:
+          GITHUB_SHA: ${{ github.sha }}
 
-      # upload do relatório Allure como artefato
       - name: Publicando relatório no GitHub Pages
-        if: success() || failure()  # publica mesmo se os testes falharem
+        if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report
+          publish_dir: ./public
           publish_branch: gh-pages 
