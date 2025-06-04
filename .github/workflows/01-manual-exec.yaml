@@ -43,16 +43,11 @@ jobs:
       - name: Gerando relatório Allure
         run: yarn run report:generate
 
-      - name: Salvando relatório Allure
+      - name: Fazendo deploy do Allure Report para GitHub Pages
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: allure-report
-          path: allure-report
-
-      - name: Publicando relatório no summary
-        if: always()
-        uses: simple-elf/allure-report-action@v1.8
-        with:
-          allure_results: allure-results
-          allure_report: allure-report
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          publish_branch: gh-pages
+          keep_files: true  # (opcional) mantém arquivos anteriores
