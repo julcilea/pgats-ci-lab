@@ -37,6 +37,6 @@
   },
     "scripts": {
     "e2e": "playwright test",
-    "report:generate": "node ./scripts/generate-report-path.js"
+    "report:generate": "allure generate allure-results --clean -o allure-report"
   }
 }

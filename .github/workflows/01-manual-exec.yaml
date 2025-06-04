@@ -40,15 +40,20 @@ jobs:
       - name: Executando testes E2E
         run: yarn run e2e
         
-      - name: Gerando relatório Allure com caminho por data e commit
+      - name: Gerando relatório Allure
         run: yarn run report:generate
-        env:
-          GITHUB_SHA: ${{ github.sha }}
 
-      - name: Publicando relatório no GitHub Pages
+      - name: Salvando relatório Allure
         if: always()
-        uses: peaceiris/actions-gh-pages@v4
+        uses: actions/upload-artifact@v4
         with:
+          name: allure-report
+          path: allure-report
+
+      - name: Publicando relatório no summary
+        if: always()
+        uses: simple-elf/allure-report-action@v1.8
+        with:
+          allure_results: allure-results
+          report_dir: allure-report
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
