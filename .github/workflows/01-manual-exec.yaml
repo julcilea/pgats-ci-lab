@@ -55,5 +55,4 @@ jobs:
         uses: simple-elf/allure-report-action@v1.8
         with:
           allure_results: allure-results
-          report_dir: allure-report
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          allure_report: allure-report
