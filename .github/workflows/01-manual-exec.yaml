@@ -45,9 +45,10 @@ jobs:
         run: yarn run report:generate
 
       # upload do relatório Allure como artefato
-      - name: Salvando relatório Allure
-        if: always()
-        uses: actions/upload-artifact@v4
+      - name: Publicando relatório no GitHub Pages
+        if: success() || failure()  # publica mesmo se os testes falharem
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          name: allure-report
-          path: allure-report  
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          publish_branch: gh-pages 
