@@ -36,8 +36,7 @@
     "whatwg-fetch": "^3.6.20"
   },
     "scripts": {
-    "e2e": "npx playwright test",
-    "report:generate": "allure generate allure-results --clean -o allure-report",
-    "report:open": "allure open allure-report"
+    "e2e": "playwright test",
+    "report:generate": "allure generate allure-results --clean -o allure-report"
   }
 }
