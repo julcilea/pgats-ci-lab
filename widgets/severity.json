@@ -1,1 +1,1 @@
-[]
+[{"uid":"e93b4c88fc479a85","name":"user should be able to ride","time":{"start":1749319560432,"stop":1749319561228,"duration":796},"status":"passed","severity":"normal"},{"uid":"3e2bbe5fa120e81b","name":"user with minimum height should be allowed","time":{"start":1749319565548,"stop":1749319566112,"duration":564},"status":"passed","severity":"normal"},{"uid":"f0c787f2ff55a6ff","name":"user above height should not be allowed","time":{"start":1749319564925,"stop":1749319565542,"duration":617},"status":"passed","severity":"normal"}]
