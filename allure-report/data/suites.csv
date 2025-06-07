@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","9399","user with minimum height should be allowed","chromium","Sat Jun 07 13:37:06 BRT 2025","passed","Sat Jun 07 13:37:16 BRT 2025","user rides","example.spec.js","",""
-"","9445","user should be able to ride","chromium","Sat Jun 07 13:37:06 BRT 2025","passed","Sat Jun 07 13:37:16 BRT 2025","user rides","example.spec.js","",""
-"","9852","user above height should not be allowed","chromium","Sat Jun 07 13:37:06 BRT 2025","passed","Sat Jun 07 13:37:16 BRT 2025","user rides","example.spec.js","",""
