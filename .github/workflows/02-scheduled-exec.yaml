@@ -12,7 +12,7 @@ on:
 # b - hora
 # c - dia do mês
 # d - mês
-# e - dia da semana    
+# e - dia da semana
 
 # trabalhos/tarefas dentro do pipeline = jobs
 jobs:
@@ -37,7 +37,7 @@ jobs:
       # instalação das dependências
       - name: Instalando dependências
         run: yarn
-      
+
       # instalação do Playwright
       - name: Instalando Playwright
         run: yarn playwright install

@@ -31,7 +31,7 @@ jobs:
       # instalação das dependências
       - name: Instalando dependências
         run: yarn
-      
+
       # instalação do Playwright
       - name: Instalando Playwright
         run: yarn playwright install
@@ -39,7 +39,7 @@ jobs:
       # execução dos testes
       - name: Executando testes E2E
         run: yarn run e2e
-        
+
       - name: Gerando relatório Allure
         run: yarn run report:generate
 
@@ -50,4 +50,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
-          keep_files: true  # (opcional) mantém arquivos anteriores
+          keep_files: true # (opcional) mantém arquivos anteriores

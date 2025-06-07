@@ -36,11 +36,13 @@
 13. Execute a aplicação com `yarn start`
 14. Acesse a aplicação publicada [neste link](https://pgats-ci-example.netlify.app)
 15. Para ver os testes e2e:
-   ```shell
-   yarn playwright show-report
-   ```
+
+```shell
+yarn playwright show-report
+```
 
 ---
 
 💜⚡️
+
 # pgats-ci-lab

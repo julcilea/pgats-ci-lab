@@ -1,1 +1,37 @@
-{"uid":"4b4757e66a1912dae1a509f688f20b0f","name":"categories","children":[{"name":"Product defects","children":[{"name":"Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"","children":[{"name":"user should be able to ride","uid":"6ed5ac2870909ace","parentUid":"4ba1294f4a8b9163951ed10be27e2213","status":"failed","time":{"start":1748999120052,"stop":1748999129215,"duration":9163},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]}],"uid":"4ba1294f4a8b9163951ed10be27e2213"}],"uid":"8fb3a91ba5aaf9de24cc8a92edc82b5d"}]}
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Product defects",
+      "children": [
+        {
+          "name": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"",
+          "children": [
+            {
+              "name": "user should be able to ride",
+              "uid": "6ed5ac2870909ace",
+              "parentUid": "4ba1294f4a8b9163951ed10be27e2213",
+              "status": "failed",
+              "time": {
+                "start": 1748999120052,
+                "stop": 1748999129215,
+                "duration": 9163
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": []
+            }
+          ],
+          "uid": "4ba1294f4a8b9163951ed10be27e2213"
+        }
+      ],
+      "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    }
+  ]
+}

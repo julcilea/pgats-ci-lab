@@ -1,1 +1,279 @@
-{"uuid":"3dbde678-80dc-47c5-b979-b9f85cff08c3","name":"user should be able to ride","historyId":"08948adee7a23e6d83a5ec13e9a114e8:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"","trace":"Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"\n    at C:\\Users\\julci\\OneDrive\\Documents\\pgats-ci-lab\\e2e\\example.spec.js:14:24"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserType.launch","start":1748999120076,"uuid":"e58433fd-2136-4f84-9106-da3b3c649025","stop":1748999120868}],"attachments":[],"parameters":[],"name":"fixture: browser","start":1748999120072,"uuid":"bffe190d-8741-4ee9-9617-1dd3f7c3aa62","stop":1748999120869},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browser.newContext","start":1748999120872,"uuid":"ef6463a5-6a2c-474f-bb14-7c41c7e71d59","stop":1748999120895}],"attachments":[],"parameters":[],"name":"fixture: context","start":1748999120870,"uuid":"0cdbcf62-c805-4e4c-9c66-3952b5b97d7b","stop":1748999120898},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserContext.newPage","start":1748999120901,"uuid":"a9787f0b-a7a5-49d1-978e-a7c48bc4d6c0","stop":1748999126059}],"attachments":[],"parameters":[],"name":"fixture: page","start":1748999120898,"uuid":"0da09f77-2397-44fc-81e6-a4cff9d6221b","stop":1748999126059},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page.goto(/)","start":1748999126062,"uuid":"bdee744a-f6e4-48da-ba69-3c815d19c7bb","stop":1748999129535}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1748999120056,"uuid":"4c27fbc6-1c39-43ea-89a1-2132fd8899bb","stop":1748999129535}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1748999120055,"uuid":"e0ed4d00-4c05-4dfd-a8f5-672d9c0d57b8","stop":1748999129536},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1748999129541,"name":"locator.getByRole('link', { name: 'Choose Roba Swings' }).click","uuid":"bafe3c84-92c8-4a9b-ba86-8b6e0b3da1a1","stop":1748999129790},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1748999129793,"name":"locator.getByLabel('Amount of people').selectOption","uuid":"b35e9182-aa6b-44c0-b664-dfbb95ea72a8","stop":1748999129813},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1748999129814,"name":"locator.getByRole('button', { name: 'Next' }).click","uuid":"da48f561-cd4a-4d29-9f2a-3f79351dac0e","stop":1748999129849},{"status":"failed","statusDetails":{"message":"Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"","trace":"Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"\n    at C:\\Users\\julci\\OneDrive\\Documents\\pgats-ci-lab\\e2e\\example.spec.js:14:24"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1748999129852,"name":"expect.toContain","uuid":"e843fc1f-aa4d-42bc-84e1-8f8406c4e81b","stop":1748999129854},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"b94a9145-9990-4558-b993-547728089af7-attachment.png","type":"image/png"}],"parameters":[],"start":1748999130265,"name":"screenshot","stop":1748999130265},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"_error-context-0","source":"7442122f-9df7-42d8-b0de-c7d993a78086-attachment.md","type":"text/markdown"}],"parameters":[],"start":1748999130268,"name":"_error-context-0","stop":1748999130268},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page.screenshot","start":1748999129859,"uuid":"e45827e9-1859-48c9-a6d2-6dcd811571aa","stop":1748999129994},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: page","start":1748999129998,"uuid":"e314b35a-9e6e-4c78-b69a-e1988689072c","stop":1748999129998},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: context","start":1748999129999,"uuid":"260dfc9a-34e6-418a-b687-3f213c6085b0","stop":1748999129999}],"attachments":[],"parameters":[],"name":"After Hooks","start":1748999129855,"uuid":"002365d8-6ea3-4594-818d-81e202dc0ac5","stop":1748999130034}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"example.spec.js"},{"name":"titlePath","value":" > chromium > example.spec.js > user rides"},{"name":"host","value":"PC-LEA"},{"name":"thread","value":"pid-22020-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"example.spec.js"},{"name":"subSuite","value":"user rides"}],"links":[],"start":1748999120052,"testCaseId":"08948adee7a23e6d83a5ec13e9a114e8","fullName":"example.spec.js:9:3","stop":1748999129215}
+{
+  "uuid": "3dbde678-80dc-47c5-b979-b9f85cff08c3",
+  "name": "user should be able to ride",
+  "historyId": "08948adee7a23e6d83a5ec13e9a114e8:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"",
+    "trace": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"\n    at C:\\Users\\julci\\OneDrive\\Documents\\pgats-ci-lab\\e2e\\example.spec.js:14:24"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserType.launch",
+                  "start": 1748999120076,
+                  "uuid": "e58433fd-2136-4f84-9106-da3b3c649025",
+                  "stop": 1748999120868
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: browser",
+              "start": 1748999120072,
+              "uuid": "bffe190d-8741-4ee9-9617-1dd3f7c3aa62",
+              "stop": 1748999120869
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browser.newContext",
+                  "start": 1748999120872,
+                  "uuid": "ef6463a5-6a2c-474f-bb14-7c41c7e71d59",
+                  "stop": 1748999120895
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: context",
+              "start": 1748999120870,
+              "uuid": "0cdbcf62-c805-4e4c-9c66-3952b5b97d7b",
+              "stop": 1748999120898
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserContext.newPage",
+                  "start": 1748999120901,
+                  "uuid": "a9787f0b-a7a5-49d1-978e-a7c48bc4d6c0",
+                  "stop": 1748999126059
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: page",
+              "start": 1748999120898,
+              "uuid": "0da09f77-2397-44fc-81e6-a4cff9d6221b",
+              "stop": 1748999126059
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "page.goto(/)",
+              "start": 1748999126062,
+              "uuid": "bdee744a-f6e4-48da-ba69-3c815d19c7bb",
+              "stop": 1748999129535
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1748999120056,
+          "uuid": "4c27fbc6-1c39-43ea-89a1-2132fd8899bb",
+          "stop": 1748999129535
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1748999120055,
+      "uuid": "e0ed4d00-4c05-4dfd-a8f5-672d9c0d57b8",
+      "stop": 1748999129536
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1748999129541,
+      "name": "locator.getByRole('link', { name: 'Choose Roba Swings' }).click",
+      "uuid": "bafe3c84-92c8-4a9b-ba86-8b6e0b3da1a1",
+      "stop": 1748999129790
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1748999129793,
+      "name": "locator.getByLabel('Amount of people').selectOption",
+      "uuid": "b35e9182-aa6b-44c0-b664-dfbb95ea72a8",
+      "stop": 1748999129813
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1748999129814,
+      "name": "locator.getByRole('button', { name: 'Next' }).click",
+      "uuid": "da48f561-cd4a-4d29-9f2a-3f79351dac0e",
+      "stop": 1748999129849
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"",
+        "trace": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"\n    at C:\\Users\\julci\\OneDrive\\Documents\\pgats-ci-lab\\e2e\\example.spec.js:14:24"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1748999129852,
+      "name": "expect.toContain",
+      "uuid": "e843fc1f-aa4d-42bc-84e1-8f8406c4e81b",
+      "stop": 1748999129854
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "b94a9145-9990-4558-b993-547728089af7-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1748999130265,
+      "name": "screenshot",
+      "stop": 1748999130265
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "_error-context-0",
+          "source": "7442122f-9df7-42d8-b0de-c7d993a78086-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1748999130268,
+      "name": "_error-context-0",
+      "stop": 1748999130268
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page.screenshot",
+          "start": 1748999129859,
+          "uuid": "e45827e9-1859-48c9-a6d2-6dcd811571aa",
+          "stop": 1748999129994
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1748999129998,
+          "uuid": "e314b35a-9e6e-4c78-b69a-e1988689072c",
+          "stop": 1748999129998
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1748999129999,
+          "uuid": "260dfc9a-34e6-418a-b687-3f213c6085b0",
+          "stop": 1748999129999
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1748999129855,
+      "uuid": "002365d8-6ea3-4594-818d-81e202dc0ac5",
+      "stop": 1748999130034
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "example.spec.js" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > example.spec.js > user rides"
+    },
+    { "name": "host", "value": "PC-LEA" },
+    { "name": "thread", "value": "pid-22020-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "example.spec.js" },
+    { "name": "subSuite", "value": "user rides" }
+  ],
+  "links": [],
+  "start": 1748999120052,
+  "testCaseId": "08948adee7a23e6d83a5ec13e9a114e8",
+  "fullName": "example.spec.js:9:3",
+  "stop": 1748999129215
+}

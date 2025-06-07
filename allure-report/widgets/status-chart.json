@@ -1,1 +1,23 @@
-[{"uid":"4333d4a59093bb5f","name":"user with minimum height should be allowed","time":{"start":1748999120039,"stop":1748999129280,"duration":9241},"status":"passed","severity":"normal"},{"uid":"6ed5ac2870909ace","name":"user should be able to ride","time":{"start":1748999120052,"stop":1748999129215,"duration":9163},"status":"failed","severity":"normal"},{"uid":"65399daa8c3ba3a","name":"user above height should not be allowed","time":{"start":1748999120045,"stop":1748999129333,"duration":9288},"status":"passed","severity":"normal"}]
+[
+  {
+    "uid": "4333d4a59093bb5f",
+    "name": "user with minimum height should be allowed",
+    "time": { "start": 1748999120039, "stop": 1748999129280, "duration": 9241 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "6ed5ac2870909ace",
+    "name": "user should be able to ride",
+    "time": { "start": 1748999120052, "stop": 1748999129215, "duration": 9163 },
+    "status": "failed",
+    "severity": "normal"
+  },
+  {
+    "uid": "65399daa8c3ba3a",
+    "name": "user above height should not be allowed",
+    "time": { "start": 1748999120045, "stop": 1748999129333, "duration": 9288 },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

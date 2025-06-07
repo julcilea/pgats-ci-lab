@@ -67,8 +67,8 @@ jobs:
         with:
           name: Test Report
           path: ./test-results/results.xml
-          reporter: java-junit 
-        
+          reporter: java-junit
+
       - name: Gerando relatório Allure
         run: yarn run report:generate
 
@@ -79,4 +79,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
-          keep_files: true  # (opcional) mantém arquivos anteriores
+          keep_files: true # (opcional) mantém arquivos anteriores
