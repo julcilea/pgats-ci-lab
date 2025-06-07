@@ -45,14 +45,3 @@ jobs:
       # execução dos testes
       - name: Executando testes E2E
         run: yarn run e2e
-
-      - name: Gerando relatório Allure
-        run: yarn run report:generate
-
-      - name: Publicando relatório no GitHub Pages
-        if: success() || failure()  # publica mesmo se os testes falharem
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report
-          publish_branch: gh-pages 
