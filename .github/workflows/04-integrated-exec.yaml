@@ -3,7 +3,7 @@
 name: 'Execucão Integrada'
 
 on:
-  - workflows_dispatch:
+  workflows_dispatch:
 
 jobs:
   inspecao:
