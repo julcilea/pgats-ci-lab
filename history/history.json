@@ -1,1 +1,66 @@
-{"beec0d3d4b54d112e48aed642ed3a655:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"65399daa8c3ba3a","status":"passed","time":{"start":1748999120045,"stop":1748999129333,"duration":9288}}]},"56c2f56acb1e4a89cea1da3c87761293:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"4333d4a59093bb5f","status":"passed","time":{"start":1748999120039,"stop":1748999129280,"duration":9241}}]},"08948adee7a23e6d83a5ec13e9a114e8:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"6ed5ac2870909ace","status":"failed","statusDetails":"Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"","time":{"start":1748999120052,"stop":1748999129215,"duration":9163}}]}}
+{
+  "beec0d3d4b54d112e48aed642ed3a655:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "65399daa8c3ba3a",
+        "status": "passed",
+        "time": {
+          "start": 1748999120045,
+          "stop": 1748999129333,
+          "duration": 9288
+        }
+      }
+    ]
+  },
+  "56c2f56acb1e4a89cea1da3c87761293:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "4333d4a59093bb5f",
+        "status": "passed",
+        "time": {
+          "start": 1748999120039,
+          "stop": 1748999129280,
+          "duration": 9241
+        }
+      }
+    ]
+  },
+  "08948adee7a23e6d83a5ec13e9a114e8:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "6ed5ac2870909ace",
+        "status": "failed",
+        "statusDetails": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"success\"\nReceived string:    \"https://pgats-ci-example.netlify.app/#ride/swings\"",
+        "time": {
+          "start": 1748999120052,
+          "stop": 1748999129215,
+          "duration": 9163
+        }
+      }
+    ]
+  }
+}
