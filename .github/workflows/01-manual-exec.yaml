@@ -41,7 +41,7 @@ jobs:
         run: yarn run e2e
 
       - name: Generate Allure Report
-        run: npx allure generate allure-results --clean -o allure-report
+        run: yarn run report:generate
 
       - name: Fazendo deploy do Allure Report para GitHub Pages
         if: always()
