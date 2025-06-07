@@ -41,7 +41,13 @@ jobs:
         run: yarn run e2e
 
       - name: Generate Allure Report
-        run: yarn run report:generate
+        run: npx allure generate allure-results --clean -o allure-report
+
+      - name: Upload Allure Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: allure-report  
 
       - name: Fazendo deploy do Allure Report para GitHub Pages
         if: always()
@@ -50,4 +56,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
-          keep_files: true # (opcional) mantém arquivos anteriores
+          keep_files: true
