@@ -40,14 +40,6 @@ jobs:
       - name: Executando testes E2E
         run: yarn run e2e
 
-      - name: Install Allure Commandline
-        uses: fescobar/allure-docker-service@v2.13.0
-        with:
-          version: 2.25.0
-
-      - name: Add Allure to PATH
-        run: echo "$HOME/allure-2.25.0/bin" >> $GITHUB_PATH
-
       - name: Generate Allure Report
         run: yarn run report:generate
 
